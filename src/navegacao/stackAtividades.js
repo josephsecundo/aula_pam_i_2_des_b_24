@@ -11,13 +11,17 @@ const Stack = createNativeStackNavigator();
 
 export default function NavegacaoStackAtv() {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator
+            screenOptions={{                
+                headerShown: false,
+            }}
+        >
             <Stack.Screen name="Atividades" component={Atividades} />
             <Stack.Screen name="Atv1" component={Atividade1} />
             <Stack.Screen name="Atv3" component={Atividade3} />
             <Stack.Screen name="Atv4" component={Atividade4} />
             <Stack.Screen name="Atv5" component={Atividade5} />
             <Stack.Screen name="Atv6" component={Atividade6} />
-        </Stack.Navigator>
-    );
+        </ Stack.Navigator>
+            );
 }
