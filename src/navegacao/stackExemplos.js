@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Exemplos from '../exemplos';
+import ListaExemplos from '../exemplos';
 import Exemplo2 from '../ex_2';
 import Exemplo3 from '../ex_3';
 import Exemplo4 from '../ex_4';
@@ -18,7 +18,7 @@ export default function NavegacaoStackEx() {
                 headerShown: false,
             }}
         >
-            <Stack.Screen name="Exemplos" component={Exemplos} />
+            <Stack.Screen name="ListaExemplos" component={ListaExemplos} />
             <Stack.Screen
                 name="Ex2"
                 component={Exemplo2}

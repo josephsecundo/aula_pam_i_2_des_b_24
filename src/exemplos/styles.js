@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         paddingTop: 20, 
-        alignItems: 'center',         
+        alignItems: 'center',                 
     }, 
     titulo: {
         fontSize: 25, 
