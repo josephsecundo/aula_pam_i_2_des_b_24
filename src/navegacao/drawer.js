@@ -1,5 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createDrawerNavigator } from '@react-navigation/drawer'; 
+import { Button } from 'react-native';
 
 const Drawer = createDrawerNavigator();
 
@@ -11,10 +12,17 @@ export default function NavegacaoDrawer() {
         <NavigationContainer>
             <Drawer.Navigator
                 screenOptions={{
-                    headerShown: true, 
-                    headerStyle: {backgroundColor: '#7F0000'}, 
-                    headerTitleStyle: {color: '#fff'},  
-                    headerTintColor: '#fff'                   ,
+                    headerShown: true,
+                    headerStyle: { backgroundColor: '#7F0000' },
+                    headerTitleStyle: { color: '#fff' },
+                    headerTintColor: '#fff',
+                    // headerRight: () => (
+                    //     <Button
+                    //         onPress={() => alert('Botão pressionado!')}
+                    //         title="Voltar"
+                    //         color="#000"
+                    //     />
+                    // ),
                     // headerBackground: '#7F0000',
                     // drawerActiveBackgroundColor: '#FF735C',
                     // drawerInactiveBackgroundColor: '#C6C6C6',
