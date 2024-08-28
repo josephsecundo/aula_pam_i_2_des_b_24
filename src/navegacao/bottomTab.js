@@ -17,7 +17,7 @@ export default function NavegacaoBottomTab() {
         headerShown: false,
         tabBarStyle: {
           backgroundColor: '#7F0000',
-          marginTop: 0,
+          // marginTop: 0,
           textAlign: 'center',
           justifyContent: 'center',
           textAlignVertical: "center"

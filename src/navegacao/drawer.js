@@ -26,8 +26,7 @@ export default function NavegacaoDrawer() {
                     // headerBackground: '#7F0000',
                     // drawerActiveBackgroundColor: '#FF735C',
                     // drawerInactiveBackgroundColor: '#C6C6C6',
-                    // drawerLabelStyle: {
-                    //     marginLeft: -20,
+                    // drawerLabelStyle: {                        
                     //     width: '100%',
                     //     color: '#000',
                     //     flexShrink: 1,
@@ -41,12 +40,8 @@ export default function NavegacaoDrawer() {
                     //     alignSelf: 'center',
                     // },
                     // drawerStyle: {
-                    //     // width: '55%',
+                    //     width: '55%',
                     //     backgroundColor: '#7F0000',
-
-                    // },
-                    // drawerIcon: {
-                    //     marginLeft: -50,
                     // },
                 }}
             >
